@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html lang='en'>
+
+<head>
+    <title>Who Are Suspicious</title>
+
+    <!-- import dependency -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script async src="https://public.tableau.com/javascripts/api/tableau-2.9.2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.3.0/echarts.min.js"></script>
+
+    <!-- import stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+  
+    <!-- import javascript file -->
+    <script src="js/visualization.js"></script>
+    <script src="js/sankey.js"></script>
+
+</head>
+
+
+<body onload = "initViz();initViz2();initViz3();initViz4();initViz5();">  
+    <div>  
+        <h2>MSBD5005 Data Visualization Final Project - Group 9</h2>  
+        <hr>  
+        <h5>Team Member: CHEN, Yingan &ensp; MA, Zixin &ensp; O, Kenglou &ensp; ZHANG, Luyao</h5> <!-- 注意这里闭合了 h5 标签 -->  
+        <hr>  
+        <h3>Who Are Suspicious</h3>  
+        <h4>Overview</h4>  
+        <p>  
+            The project is based on Mini Challenge 2 in the 2021 IEEE VAST challenge. It presents a fictional company called GAStech, where several employees disappear during a celebration of a newfound fortune. The objective of the challenge is to analyze the provided data (gps.csv, cc_data.csv, loyalty_data.csv, car-assignment.csv) and determine which GAStech employees are potentially involved in suspicious activities.  
+        </p>  
+    </div>  
+    
+    <h4>Task 1 Popular Locations and Peak Times Using Card</h4>   
+    
+    <div id="histogram" style="width:1000px; height:500px;"></div>  
+    <p>TODO:这里是histogran图表的解释文本 </p>  
+    
+    <div id="gantt" style="width:1000px; height:700px"></div>  
+    <p>TODO:这里是gantt图表的解释文本。</p>  
+
+  
+    <div id="boxplot" style="width:1000px; height:700px; margin-top: 20px;"></div>  
+    <p>TODO:这里是boxplot图表的解释文本。</p>    
+
+
+    <h4>Task 2 Analyze Trajectory Pattern of Employees</h4>   
+
+    <div id="trajectory" class="viz-container" style="width:1200px; height:700px"></div> 
+
+
+
+    <h4>Task 3 Infer the Owners of Each Credit Card and Loyalty Card </h4> 
+
+    <p>Credit Card and Loyalty Card Mapping</p>  
+    <div id="sankey" style="width: 500px;height:1000px;"></div>  
+    <p>TODO:这里是sankey图表的解释文本。</p>  
+
+
+    <h4>Task 4 Identify Potential Relationships and Suspicious Activities </h4> 
+    <p>TODO:Case Study</p>  
+
+    <!-- import define from "e90fed3d6db2cdc4/index.js";
+    import {Runtime, Library, Inspector} from "e90fed3d6db2cdc4/runtime.js";
+
+    const runtime = new Runtime();
+    const main = runtime.module(define, Inspector.into(document.body));
+ -->
+
+
+
+</body>
+
+</html>
